@@ -13,3 +13,7 @@ secrets.json
 # Log-files
 yarn-error.log
 report.*.json
+
+# env files
+.env.local
+.env
