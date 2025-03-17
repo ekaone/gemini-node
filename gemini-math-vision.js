@@ -16,7 +16,7 @@ function fileToGenerativePart(path, mimeType) {
 
 async function run() {
   // Use the multimodal gemini-pro-vision model
-  const model = genAI.getGenerativeModel({ model: "gemini-pro-vision" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const prompt =
     "Analyze this mathematical image. Identify any equations, explain what they mean, and provide context about their significance in mathematics.";
